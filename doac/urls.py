@@ -3,7 +3,7 @@ try:
 except ImportError:
     from django.conf.urls.defaults import patterns, url
 
-from . import views
+import views
 
 urlpatterns = patterns(
     '',
